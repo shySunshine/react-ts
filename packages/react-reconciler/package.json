@@ -1,0 +1,11 @@
+{
+  "name": "@react-ts/react-reconciler",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "dependencies": {
+    "@react-ts/shared": "workspace:*",
+    "@react-ts/scheduler": "workspace:*",
+    "@react-ts/react": "workspace:*"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "moduleResolution": "bundler",
+    "allowJs": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "react": ["../packages/react/src/index.ts"],
+      "react/*": ["../packages/react/src/*"],
+      "react-dom": ["../packages/react-dom/src/index.ts"],
+      "react-dom/*": ["../packages/react-dom/src/*"],
+      "@react-ts/react": ["../packages/react/src/index.ts"],
+      "@react-ts/react/*": ["../packages/react/src/*"],
+      "@react-ts/react-dom": ["../packages/react-dom/src/index.ts"],
+      "@react-ts/react-dom/*": ["../packages/react-dom/src/*"],
+      "@react-ts/scheduler": ["../packages/scheduler/src/index.ts"],
+      "@react-ts/shared": ["../packages/shared/src/index.ts"],
+      "@react-ts/react-reconciler": ["../packages/react-reconciler/src/index.ts"]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "vite.config.ts"
+  ]
+}

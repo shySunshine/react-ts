@@ -1,0 +1,15 @@
+{
+  "name": "@react-ts/react-dom",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./client": "./src/client.ts"
+  },
+  "dependencies": {
+    "@react-ts/shared": "workspace:*",
+    "@react-ts/scheduler": "workspace:*",
+    "@react-ts/react-reconciler": "workspace:*"
+  }
+}

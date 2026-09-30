@@ -1,0 +1,9 @@
+packages:
+  - 'packages/*'
+  - 'playground'
+
+allowBuilds:
+  esbuild: true
+
+onlyBuiltDependencies:
+  - esbuild

@@ -1,0 +1,23 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-ts/react": "workspace:*",
+    "@react-ts/react-dom": "workspace:*",
+    "@react-ts/scheduler": "workspace:*"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^4.2.1",
+    "tailwindcss": "^4.3.3",
+    "vite": "^5.2.11"
+  }
+}

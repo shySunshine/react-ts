@@ -1,0 +1,18 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@react-ts/shared": ["../packages/shared/src/index.ts"],
+      "@react-ts/scheduler": ["../packages/scheduler/src/index.ts"],
+      "@react-ts/react": ["../packages/react/src/index.ts"],
+      "@react-ts/react-reconciler": ["../packages/react-reconciler/src/index.ts"],
+      "@react-ts/react-dom": ["../packages/react-dom/src/index.ts"],
+      "@react-ts/react-dom/*": ["../packages/react-dom/src/*"]
+    }
+  },
+  "include": [
+    "**/*"
+  ]
+}
